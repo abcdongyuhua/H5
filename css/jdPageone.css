@@ -1,0 +1,94 @@
+body {
+	background:rgba(226,51,26,1);
+}
+.header {
+	width: 100%;
+	height: 1.6rem;
+	font-size: .34rem;
+	text-align: center;
+	color:rgba(255,255,255,1);
+	line-height:1.6rem;
+	background-image: url(../img/jd/header_bg.png);
+	background-size: 100% 100%;
+}
+.content {
+	width: 100%;
+}
+.content .title {
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	letter-spacing:.01rem;
+	font-size: .34rem;
+	text-align: center;
+	margin-bottom: .48rem;
+}
+.content .content_box {
+	background: white;
+	width: 6.9rem;
+	height: 5.02rem;
+	margin: 0 auto;
+	box-shadow:0rem .02rem .08rem 0rem rgba(153,153,153,0.2);
+	border-radius:.16rem;
+}
+.content_box .tab_title {
+	display: flex;
+	font-size: .3rem;
+	padding: .16rem 0rem;
+	font-weight:400;
+	border-bottom: .01rem solid #dedede;
+	justify-content: space-between;
+	 
+}
+.tab_title p {
+	width: 50%;
+	color: #333333;
+	text-align: center;
+	font-family:PingFangSC-Regular,PingFang SC;
+}
+.tab_content {
+	width: 6.42rem;
+	margin: 0 auto;
+}
+.tab_content .tab_content_title {
+	margin-top: .39rem;
+	text-align: left;
+	font-size: .30rem;
+	font-family:PingFangSC-Regular,PingFang SC;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height: .42rem;
+}
+.tab_content .tab_input {
+	width:100%;
+	height:.8rem;
+	background:rgba(245,245,245,1);
+	border-radius: .4rem;
+	border: none;
+	padding-left: .3rem;
+}
+.tab_input::-webkit-input-placeholder{
+    font-size: .26rem;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    line-height: .37rem;
+}
+.bottom {
+	width: 5.20rem;
+	height: .8rem;
+	margin: 0 auto;
+	background:rgba(226,51,26,1);
+	border-radius: .40rem;
+}
+.bottom p {
+	margin-top: .8rem;
+	line-height: .7rem;
+	font-size: .3rem;
+	text-align: center;
+	color:rgba(255,255,255,1);
+}
+.footer {
+	margin-top: .21rem;
+	color:rgba(255,255,255,1);
+	text-align: center;
+}
